@@ -172,49 +172,49 @@ int main(){
 //}
 
 //I like beijing  ----->   beijing like I
-//void reverse_str(char*left,char*right){
-//	while (left < right){
-//		char tmp = *left;
-//		*left = *right;
-//		*right = tmp;
-//		left++;
-//		right--;
-//	}
-//}
-//void reverse(char *str){
-//	int len = strlen(str);
-//	if (len <= 1){
-//		return;
-//	}
-//	reverse_str(str, str + len - 1);
-//	char*cur = str;
-//	while (*cur){
-//		//查找单词边界：空格 或者‘\0’
-//		char* start = cur;
-//		while (*cur != ' '&& *cur != '\0'){
-//			++cur;
-//		}
-//			//当前单词的区间：[start,cur)
-//			//逆转单词；
-//			reverse_str(start, cur - 1);
-//			//查找下一个单词的区间
-//			//跳过空格
-//			while (*cur == ' '){
-//				++cur;
-//			}
-//		
-//	}
-//	printf(str);
-//}
-//int main(){
-//	char str[] = "I like beijing";
-//	/*
-//	char str[101]={0};
-//	*/
-//	reverse(str);
-//	
-//	system("pause");
-//	return 0;
-//}
+void reverse_str(char*left,char*right){
+	while (left < right){
+		char tmp = *left;
+		*left = *right;
+		*right = tmp;
+		left++;
+		right--;
+	}
+}
+void reverse(char *str){
+	int len = strlen(str);
+	if (len <= 1){
+		return;
+	}
+	reverse_str(str, str + len - 1);
+	char*cur = str;
+	while (*cur){
+		//查找单词边界：空格 或者‘\0’
+		char* start = cur;
+		while (*cur != ' '&& *cur != '\0'){
+			++cur;
+		}
+			//当前单词的区间：[start,cur)
+			//逆转单词；
+			reverse_str(start, cur - 1);
+			//查找下一个单词的区间
+			//跳过空格
+			while (*cur == ' '){
+				++cur;
+			}
+		
+	}
+	printf(str);
+}
+int main(){
+	char str[] = "I like beijing";
+	/*
+	char str[101]={0};
+	*/
+	reverse(str);
+	
+	system("pause");
+	return 0;
+}
 
 //已完
