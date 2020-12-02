@@ -1,0 +1,16 @@
+﻿生成启动时间为 2020/11/30 19:56:48。
+     1>项目“C:\Users\iprove\Desktop\比特科技\C基础部分\C基础部分\C基础部分.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "11_30文件操作.c"
+         11_30文件操作.c
+     1>c:\users\iprove\desktop\比特科技\c基础部分\c基础部分\11_30文件操作.c(5): warning C4047: “函数”:“FILE **”与“char [9]”的间接级别不同
+     1>c:\users\iprove\desktop\比特科技\c基础部分\c基础部分\11_30文件操作.c(5): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+     1>c:\users\iprove\desktop\比特科技\c基础部分\c基础部分\11_30文件操作.c(5): error C2198: “fopen_s”: 用于调用的参数太少
+     1>c:\users\iprove\desktop\比特科技\c基础部分\c基础部分\11_30文件操作.c(5): warning C4047: “初始化”:“FILE *”与“errno_t”的间接级别不同
+     1>c:\users\iprove\desktop\比特科技\c基础部分\c基础部分\11_30文件操作.c(10): warning C4013: “fclose_s”未定义；假设外部返回 int
+     1>c:\users\iprove\desktop\比特科技\c基础部分\c基础部分\11_30文件操作.c(12): warning C4013: “sysytem”未定义；假设外部返回 int
+     1>已完成生成项目“C:\Users\iprove\Desktop\比特科技\C基础部分\C基础部分\C基础部分.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.39
