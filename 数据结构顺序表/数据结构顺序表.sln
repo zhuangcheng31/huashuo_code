@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数据结构初阶", "数据结构初阶\数据结构初阶.vcxproj", "{9C193A96-18EF-4491-B19F-BAE12B70E823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C193A96-18EF-4491-B19F-BAE12B70E823}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C193A96-18EF-4491-B19F-BAE12B70E823}.Debug|Win32.Build.0 = Debug|Win32
+		{9C193A96-18EF-4491-B19F-BAE12B70E823}.Release|Win32.ActiveCfg = Release|Win32
+		{9C193A96-18EF-4491-B19F-BAE12B70E823}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
